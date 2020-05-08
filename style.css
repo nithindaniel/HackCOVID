@@ -279,7 +279,7 @@ input[type=text] {
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px #E0FFFF;
+    box-shadow: 0 0 20px 9px rgba(239, 233, 158, 0.45);
     border-radius: 30px;
 }
 
@@ -359,4 +359,7 @@ span{
 li{
     color: #c8c384;
     display: inline;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
