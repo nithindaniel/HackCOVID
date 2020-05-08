@@ -225,6 +225,9 @@ a {
 
 table {
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
 }
 
 th {
@@ -237,24 +240,39 @@ th {
 
 .class-table tr:hover {background-color: #f2f2f2;}
 
-.class-table tr:nth-child(odd){background-color: #5e1212;}
-
 td, th {
-    border: 1px solid #ddd;
     padding: 8px;
 }
 
-.addform {
-
+.class-table td, th {
+    border: 1px solid #ddd;
 }
 
-input[type=text] {
+input {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
+.addform {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+}
+
+.info-box{
+    width: 75%;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(255, 255, 255, 1);
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    text-align: center;
+}
+
 /*End edits by Nidhi*/
+
 
 /*style2 stuff*/
 

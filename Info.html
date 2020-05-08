@@ -7,117 +7,146 @@
 
 <body>
 
-<h1 id="fancy">Sign Up Page</h1>
-<p>Description here</p>
-<h2>Profile and Bio</h2>
-<table class="profile-table">
-    <tr>
-        <td>First Name</td>
-        <td>John</td>
-        <td><button class="edit">Edit</button></td>
-    </tr>
-    <tr>
-        <td>Last Name</td>
-        <td>Doe</td>
-        <td><button class="edit">Edit</button></td>
-    </tr>
-    <tr>
-        <td>School</td>
-        <td>Georgia Tech</td>
-        <td><button class="edit">Edit</button></td>
-    </tr>
-    <tr>
-        <td>Major</td>
-        <td>Industrial Engineering</td>
-        <td><button class="edit">Edit</button></td>
-    </tr>
-    <tr>
-        <td>Bio</td>
-        <td>Hello, my name is John!</td>
-        <td><button class="edit">Edit</button></td>
-    </tr>
-</table>
+<div class="hero">
+    <div class="info-box">
+        <h1 id="fancy">Profile</h1>
+        <p>Edit this page to change what groups you are looking for.</p>
+        <h2>Bio</h2>
+        <table class="profile-table">
+            <tr>
+                <td>First Name:</td>
+                <td>John</td>
+                <td><button class="edit">Edit</button></td>
+            </tr>
+            <tr>
+                <td>Last Name:</td>
+                <td>Doe</td>
+                <td><button class="edit">Edit</button></td>
+            </tr>
+            <tr>
+                <td>School:</td>
+                <td>Georgia Tech</td>
+                <td><button class="edit">Edit</button></td>
+            </tr>
+            <tr>
+                <td>Major:</td>
+                <td>Industrial Engineering</td>
+                <td><button class="edit">Edit</button></td>
+            </tr>
+            <tr>
+                <td>Bio:</td>
+                <td>Hello, my name is John!</td>
+                <td><button class="edit">Edit</button></td>
+            </tr>
+        </table>
 
-<!------------------------------------------------------------------------->
-<!--CLASSES-->
-<!------------------------------------------------------------------------->
+        <!------------------------------------------------------------------------->
+        <!--CLASSES-->
+        <!------------------------------------------------------------------------->
 
-<h2>Classes</h2>
-<h3>Your Classes</h3>
-<table class="class-table">
-    <tr>
-        <th>Subject</th>
-        <th>Course Number</th>
-        <th>Instructor</th>
-        <th>Section</th>
-    </tr>
-    <tr>
-        <td>CS</td>
-        <td>1331</td>
-        <td>McDaniel</td>
-        <td>A</td>
-    </tr>
-</table>
+        <h2>Classes</h2>
+        <h3>Your Classes</h3>
+        <table class="class-table">
+            <tr>
+                <th>Subject</th>
+                <th>Course Number</th>
+                <th>Instructor</th>
+                <th>Section</th>
+                <th>Edit</th>
+            </tr>
+            <tr>
+                <td>CS</td>
+                <td>1331</td>
+                <td>McDaniel</td>
+                <td>A</td>
+                <td>
+                    <button>Edit</button>
+                </td>
+            </tr>
+        </table>
 
-<h3>Add a New Class</h3>
-<form class="addform">
-    <label for="subject">Subject/Department:</label>
-    <input type="text" id="subject" name="subject" required><br>
-    <label for="number">Course Number:</label>
-    <input type="text" id="number" name="number" required><br>
-    <label for="instructor">Instructor:</label>
-    <input type="text" id="instructor" name="instructor"><br>
-    <label for="section">Section:</label>
-    <input type="text" id="section" name="section"><br>
+        <h3>Add a New Class</h3>
+        <form class="addform">
+            <table>
+                <tr>
+                    <td><label for="subject">Subject/Department:</label></td>
+                    <td><input type="text" id="subject" name="subject" required></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Course Number:</label></td>
+                    <td><input type="text" id="number" name="number" required></td>
+                </tr>
+                <tr>
+                    <td><label for="instructor">Instructor:</label></td>
+                    <td><input type="text" id="instructor" name="instructor"></td>
+                </tr>
+                <tr>
+                    <td><label for="section">Section:</label></td>
+                    <td><input type="text" id="section" name="section"></td>
+                </tr>
+            </table>
 
-    <input type="submit">
-</form>
+            <input type="submit" class="button">
+        </form>
 
-<!------------------------------------------------------------------------->
-<!--HOBBIES AND INTERESTS-->
-<!------------------------------------------------------------------------->
-<h2>Hobbies and Interests</h2>
-<h3>Your Interests</h3>
-<table class="class-table">
-    <tr>
-        <th>Interest</th>
-        <th>Specialty</th>
-        <th>Proficiency</th>
-    </tr>
-    <tr>
-        <td>Computer Science</td>
-        <td>Java</td>
-        <td>Novice</td>
-        <td>
-            <button>Edit</button>
-        </td>
-    </tr>
-</table>
+        <!------------------------------------------------------------------------->
+        <!--HOBBIES AND INTERESTS-->
+        <!------------------------------------------------------------------------->
+        <h2>Hobbies and Interests</h2>
+        <h3>Your Interests</h3>
+        <table class="class-table">
+            <tr>
+                <th>Interest</th>
+                <th>Specialty</th>
+                <th>Proficiency</th>
+                <th>Edit</th>
+            </tr>
+            <tr>
+                <td>Computer Science</td>
+                <td>Java</td>
+                <td>Novice</td>
+                <td>
+                    <button>Edit</button>
+                </td>
+            </tr>
+        </table>
 
-<h3>Add a New Interest</h3>
-<form class="addform">
-    <label for="interest">Interest:</label>
-    <input type="text" id="interest" name="interest" required><br>
-    <label for="specialty">Speciality:</label>
-    <input type="text" id="specialty" name="specialty"><br>
-    <label for="proficiency">Proficiency:</label>
-    <select id="proficiency" name="proficiency">
-        <option value="select">Select</option>
-        <option value="basic">Fundamental Awareness (basic knowledge)</option>
-        <option value="novice">Novice (limited experience)</option>
-        <option value="intermediate">Intermediate (practical application)</option>
-        <option value="advanced">Advanced (applied theory)</option>
-        <option value="expert">Expert (recognized authority)</option>
-    </select><br>
+        <h3>Add a New Interest</h3>
+        <form class="addform">
+            <table>
+                <tr>
+                    <td><label for="interest">Interest:</label></td>
+                    <td><input type="text" id="interest" name="interest" required></td>
+                </tr>
+                <tr>
+                    <td><label for="specialty">Speciality:</label></td>
+                    <td><input type="text" id="specialty" name="specialty"></td>
+                </tr>
+                <tr>
+                    <td><label for="proficiency">Proficiency:</label></td>
+                    <td>
+                        <select id="proficiency" name="proficiency">
+                            <option value="select">Select</option>
+                            <option value="basic">Fundamental Awareness (basic knowledge)</option>
+                            <option value="novice">Novice (limited experience)</option>
+                            <option value="intermediate">Intermediate (practical application)</option>
+                            <option value="advanced">Advanced (applied theory)</option>
+                            <option value="expert">Expert (recognized authority)</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" class="button">
+        </form>
 
-    <input type="submit">
-</form>
-
-<form action="Dashboard.html">
-    <button class = "button">Return to Dashboard</button>
-</form>
-
-
+        <br>
+        <br>
+        <br>
+        <form action="Dashboard.html">
+            <button class = "button">Return to Dashboard</button>
+        </form>
+    </div>
+</div>
 
 </body>
 </html>
