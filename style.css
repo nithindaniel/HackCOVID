@@ -175,5 +175,6 @@ a.button {
 }
 
 .button:hover {
-    background-color: #c4be08;
+    background-color: white;
+    color: #c8c384;
 }
