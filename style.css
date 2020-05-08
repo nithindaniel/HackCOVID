@@ -588,87 +588,6 @@ h1 {
     margin: 0;
     text-decoration: none;
 }
-/*Start of Star Code*/
-@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
-
-fieldset, label { margin: 0; padding: 0; }
-body{ margin: 20px; }
-h1 { font-size: 1.5em; margin: 10px; }
-
-/****** Style Star Rating Widget *****/
-
-.rating {
-    border: none;
-    float: left;
-}
-
-.rating > input { display: none; }
-.rating > label:before {
-    margin: 5px;
-    font-size: 1.25em;
-    font-family: FontAwesome;
-    display: inline-block;
-    content: "\f005";
-}
-
-.rating > .half:before {
-    content: "\f089";
-    position: absolute;
-}
-
-.rating > label {
-    color: #ddd;
-    float: right;
-}
-
-/***** CSS Magic to Highlight Stars on Hover *****/
-
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
-
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
-
-.rating {
-    border: none;
-    float: left;
-}
-
-.rating > input { display: none; }
-.rating > label:before {
-    margin: 5px;
-    font-size: 1.25em;
-    font-family: FontAwesome;
-    display: inline-block;
-    content: "\f005";
-}
-
-.rating > .half:before {
-    content: "\f089";
-    position: absolute;
-}
-
-.rating > label {
-    color: #ddd;
-    float: right;
-}
-
-/***** CSS Magic to Highlight Stars on Hover *****/
-
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
-
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
-
-
-/*End of Star Code*/
 
 a {
     color: #c8c384;
@@ -818,3 +737,108 @@ input[type=text] {
 }
 
 /*End edits by Nidhi*/
+
+/*style2 stuff*/
+
+.hero{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.form-box{
+    height: 480px;
+    width: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(255, 255, 255, 1);
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #E0FFFF;
+    border-radius: 30px;
+}
+
+.toggle-button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+
+#button{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 110px;
+    background: linear-gradient(to right, rgb(128, 128, 128), rgba(88, 106, 139, 0.9));
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-group{
+    top: 130px;
+    position: absolute;
+    width: 280px;
+    transition: 0.5s;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.submit-button{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgb(128, 128, 128), rgba(88, 106, 139, 0.9));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+
+#login{
+    left: 50px;
+}
+#signup{
+    left: 450px;
+}
+
+li{
+    color: #c8c384;
+    display: inline;
+}
