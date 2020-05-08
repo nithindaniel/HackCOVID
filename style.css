@@ -190,7 +190,7 @@ a {
     /*overflow: hidden;*/
     /*border-radius: 10px;*/
     /*margin: 1rem;*/
-    background: white;
+    background: #7f8c8d;
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
     border-radius: 12px;
     overflow: hidden;
@@ -204,10 +204,10 @@ a {
 
 
 .button_dash {
-    background-color: white; /*#c8c384*/
+    background-color: #7f8c8d; /*#c8c384*/
     border: none;
     position: center;
-    color: lightskyblue;
+    color: #c8c384;
     padding: 150px 150px; /*15 25*/
     text-align: center;
     font-size: 16px;
@@ -216,8 +216,8 @@ a {
 }
 
 .button_dash:hover {
-    background-color: white;
-    color: dodgerblue;
+    background-color: #7f8c8d;
+    color: #c8c390;
     transform: translate3D(0, -10px, 0);
 }
 
