@@ -234,3 +234,38 @@ a.button {
     color: dodgerblue;
     transform: translate3D(0, -10px, 0);
 }
+
+/*Edits by Nidhi*/
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.class-table tr:hover {background-color: #f2f2f2;}
+
+.class-table tr:nth-child(odd){background-color: #5e1212;}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.addform {
+
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+/*End edits by Nidhi*/

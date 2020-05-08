@@ -6,32 +6,45 @@
 </head>
 
 <body>
-<li>
-    <A HREF ="Homepage.html"> Home</A>
-</li>
-<br/>
 
 <h1 id="fancy">Sign Up Page</h1>
 <p>Description here</p>
 <h2>Profile and Bio</h2>
-<form>
-    <label for="fname">First name:</label>
-    <input type="text" id="fname" name="fname"><br>
-    <label for="lname">Last name:</label>
-    <input type="text" id="lname" name="lname"><br>
-    <label for="school">School:</label>
-    <input type="text" id="school" name="school"><br>
-    <label for="major">Major:</label>
-    <input type="text" id="major" name="major"><br>
-    <label for="bio">Bio:</label>
-    <input type="text" id="bio" name="bio"><br>
-    availability
-    learning styles
-</form>
+<table class="profile-table">
+    <tr>
+        <td>First Name</td>
+        <td>John</td>
+        <td><button class="edit">Edit</button></td>
+    </tr>
+    <tr>
+        <td>Last Name</td>
+        <td>Doe</td>
+        <td><button class="edit">Edit</button></td>
+    </tr>
+    <tr>
+        <td>School</td>
+        <td>Georgia Tech</td>
+        <td><button class="edit">Edit</button></td>
+    </tr>
+    <tr>
+        <td>Major</td>
+        <td>Industrial Engineering</td>
+        <td><button class="edit">Edit</button></td>
+    </tr>
+    <tr>
+        <td>Bio</td>
+        <td>Hello, my name is John!</td>
+        <td><button class="edit">Edit</button></td>
+    </tr>
+</table>
+
+<!------------------------------------------------------------------------->
+<!--CLASSES-->
+<!------------------------------------------------------------------------->
 
 <h2>Classes</h2>
 <h3>Your Classes</h3>
-<table>
+<table class="class-table">
     <tr>
         <th>Subject</th>
         <th>Course Number</th>
@@ -47,22 +60,25 @@
 </table>
 
 <h3>Add a New Class</h3>
-<form>
+<form class="addform">
     <label for="subject">Subject/Department:</label>
-    <input type="text" id="subject" name="subject"><br>
+    <input type="text" id="subject" name="subject" required><br>
     <label for="number">Course Number:</label>
-    <input type="text" id="number" name="number"><br>
+    <input type="text" id="number" name="number" required><br>
     <label for="instructor">Instructor:</label>
     <input type="text" id="instructor" name="instructor"><br>
     <label for="section">Section:</label>
     <input type="text" id="section" name="section"><br>
 
-    <button>Add</button>
+    <input type="submit">
 </form>
 
+<!------------------------------------------------------------------------->
+<!--HOBBIES AND INTERESTS-->
+<!------------------------------------------------------------------------->
 <h2>Hobbies and Interests</h2>
 <h3>Your Interests</h3>
-<table>
+<table class="class-table">
     <tr>
         <th>Interest</th>
         <th>Specialty</th>
@@ -72,17 +88,20 @@
         <td>Computer Science</td>
         <td>Java</td>
         <td>Novice</td>
+        <td>
+            <button>Edit</button>
+        </td>
     </tr>
 </table>
 
 <h3>Add a New Interest</h3>
-<form>
+<form class="addform">
     <label for="interest">Interest:</label>
-    <input type="text" id="interest" name="interest"><br>
+    <input type="text" id="interest" name="interest" required><br>
     <label for="specialty">Speciality:</label>
     <input type="text" id="specialty" name="specialty"><br>
-    <label for="instructor">Proficiency:</label>
-    <select>
+    <label for="proficiency">Proficiency:</label>
+    <select id="proficiency" name="proficiency">
         <option value="select">Select</option>
         <option value="basic">Fundamental Awareness (basic knowledge)</option>
         <option value="novice">Novice (limited experience)</option>
@@ -91,12 +110,14 @@
         <option value="expert">Expert (recognized authority)</option>
     </select><br>
 
-    <button>Add</button>
+    <input type="submit">
 </form>
 
 <form action="Dashboard.html">
     <button class = "button">Return to Dashboard</button>
 </form>
+
+
 
 </body>
 </html>
