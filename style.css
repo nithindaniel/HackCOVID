@@ -37,6 +37,10 @@
     width: 30%;
 }
 
+.thumbnails .button{
+    border-radius: 5px;
+}
+
 /* Box */
 
 .box {
