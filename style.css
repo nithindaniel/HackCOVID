@@ -37,6 +37,11 @@
     width: 30%;
 }
 
+.thumbnails .box_user {
+    margin: 0 1em 2em 1em;
+    width: 30%;
+}
+
 /* Box */
 
 .box {
@@ -44,25 +49,6 @@
     margin-bottom: 2em;
     background: linear-gradient(to bottom, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
     text-align: center;
-}
-
-.box > :last-child,
-.box > :last-child > :last-child,
-.box > :last-child > :last-child > :last-child {
-    margin-bottom: 0;
-}
-
-.box .image.fit {
-    margin: 0;
-}
-
-.box .image img {
-    border-radius: 4px 4px 0 0;
-}
-
-.box .inner {
-    padding: 1.5em;
-    width: 100% !important;
 }
 
 @media screen and (max-width: 480px) {
