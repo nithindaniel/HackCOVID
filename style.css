@@ -91,6 +91,36 @@
 }
 /*End of box_user code */
 
+/*Start of box_user2 code*/
+.thumbnails .box_user2 {
+    margin: 0 1em 2em 1em;
+    width: 20%;
+}
+
+/* Box */
+
+.box_user2 {
+    border-radius: 4px;
+    margin-bottom: 2em;
+    background: linear-gradient(to bottom, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .box_user2 .inner {
+        padding: 1em;
+    }
+
+}
+
+.box_user2.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+/*End of box_user2 code */
+
 
 body {
     background-color: rgba(223, 132, 94, 0.22);
