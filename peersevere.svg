@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 560 288" style="enable-background:new 0 0 560 288;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#00DFC2;stroke:#000000;stroke-miterlimit:10;}
+	.st1{fill:#00AA34;stroke:#000000;stroke-miterlimit:10;}
+	.st2{fill:#00D447;stroke:#000000;stroke-miterlimit:10;}
+	.st3{fill:#AA0072;stroke:#000000;stroke-miterlimit:10;}
+	.st4{fill:#FFC91F;stroke:#000000;stroke-miterlimit:10;}
+	.st5{fill:#FF4E2A;stroke:#000000;stroke-miterlimit:10;}
+	.st6{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;}
+	.st7{display:none;fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st8{fill:none;}
+	.st9{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st10{font-family:'Kefa-Bold';}
+	.st11{font-size:60px;}
+</style>
+<g id="orange">
+	<polygon class="st0" points="98.16,131.43 71.54,85.58 44.91,131.43 	"/>
+	<ellipse class="st0" cx="41.84" cy="99.1" rx="15.41" ry="15.32"/>
+</g>
+<g id="green">
+	<polygon class="st1" points="44.91,139.27 71.54,185.12 98.16,139.27 	"/>
+	<ellipse class="st1" cx="42.18" cy="172.66" rx="15.41" ry="15.32"/>
+</g>
+<g id="red">
+	<polygon class="st2" points="106.27,138.77 79.64,184.62 132.89,184.62 	"/>
+	<ellipse class="st2" cx="106.27" cy="203.3" rx="15.41" ry="15.32"/>
+</g>
+<g id="violet">
+	<polygon class="st3" points="141.85,185.79 168.48,139.94 115.22,139.94 	"/>
+	<ellipse class="st3" cx="170.01" cy="172.66" rx="15.41" ry="15.32"/>
+</g>
+<g id="blue">
+	<polygon class="st4" points="106.27,128.9 132.89,83.05 79.64,83.05 	"/>
+	<ellipse class="st4" cx="106.27" cy="62.96" rx="15.41" ry="15.32"/>
+</g>
+<g id="sky_blue">
+	<polygon class="st5" points="115.22,130.74 168.48,130.74 141.85,84.89 	"/>
+	<ellipse class="st5" cx="171.68" cy="98.34" rx="15.41" ry="15.32"/>
+</g>
+<ellipse class="st6" cx="106.27" cy="133.22" rx="42.79" ry="42.54"/>
+<line class="st7" x1="153.31" y1="72.9" x2="153.31" y2="82.73"/>
+<line class="st7" x1="95.74" y1="168.63" x2="105.95" y2="162.6"/>
+<line class="st7" x1="153.31" y1="184.33" x2="153.31" y2="194.7"/>
+<line class="st7" x1="202.59" y1="161.41" x2="211.22" y2="166.79"/>
+<line class="st7" x1="202.04" y1="107.74" x2="213.81" y2="101.83"/>
+<rect x="178.32" y="113.65" class="st8" width="327.18" height="67.94"/>
+<text transform="matrix(1.006 0 0 1 178.3204 155.4018)" class="st9 st10 st11">Peersevere</text>
+<rect x="171.68" y="128.8" class="st8" width="6.5" height="0.56"/>
+</svg>
