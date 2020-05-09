@@ -148,10 +148,6 @@ a {
     font-size: 2.5em;
 }
 
-#about {
-    text-align: center;
-}
-
 #fancy {
     color: rgba(255, 69, 0, 0.71);
     text-decoration: underline;
@@ -167,7 +163,7 @@ a {
 }
 
 .button {
-    background: linear-gradient(to bottom, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15)); /*#c8c384*/
+    background: linear-gradient(to bottom, rgba(239, 159, 43, 0.55), rgba(210, 16, 2, 0.21)); /*#c8c384*/
     border: none;
     position: center;
     color: white;
@@ -236,7 +232,30 @@ a {
     transform: translate3D(0, -10px, 0);
 }
 
-/*Edits by Nidhi*/
+/*Homepage edits*/
+.home-section {
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.home-section p {
+    text-align: justify;
+}
+
+.home-section ul {
+    list-style-type: circle;
+    list-style-position: outside;
+    float: left;
+}
+
+.home-section li {
+    display: list-item;
+}
+/*End Homepage edits*/
+
+/*Edits by Nidhi for Info Page*/
 
 table {
     border-collapse: collapse;
@@ -249,7 +268,7 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #4CAF50;
+    background-color: #ef9438;
     color: white;
 }
 
@@ -280,22 +299,22 @@ input {
     width: 75%;
     position: relative;
     margin: 6% auto;
-    background: rgba(255, 165, 0, 0.1);
+    background: rgba(255, 165, 0, 0.3);
     padding: 10px;
     overflow: hidden;
     border-radius: 5px;
     text-align: center;
 }
 
-/*End edits by Nidhi*/
+/*End edits by Nidhi for Info Page*/
 
 
 /*style2 stuff*/
 
 .hero{
-    height: 100%;
+    /*height: 100%;*/
     width: 100%;
-    position: absolute;
+    /*position: absolute;*/
 }
 
 .form-box{
@@ -367,7 +386,7 @@ input {
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
+    background: linear-gradient(to right, rgba(239, 159, 43, 0.55), rgba(210, 16, 2, 0.21));
     border: 0;
     outline: none;
     border-radius: 30px;

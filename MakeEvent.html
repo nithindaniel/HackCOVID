@@ -28,13 +28,43 @@
         <A HREF ="Info.html"> View Profile</A>
     </li>
 </div>
-<br/>
-<div id="about">
-    <h1 id="fancy">Make a new Event</h1>
-    <p>Description here</p>
-    <form action="index.html">
-        <button class = "button">Get Started</button>
-    </form>
+
+<div class="hero">
+    <div class="info-box">
+        <h1 id="fancy">Create an Event</h1>
+        <p>You are currently creating an event for <b>CS 1331</b>.</p>
+
+        <form class="addform">
+            <table>
+                <tr>
+                    <td><label for="topic">Topic:</label></td>
+                    <td><input type="text" id="topic" name="topic" required></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date:</label></td>
+                    <td><input type="text" id="date" name="date" required></td>
+                </tr>
+                <tr>
+                    <td><label for="time">Time:</label></td>
+                    <td><input type="text" id="time" name="time" required></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Number of Participants:</label></td>
+                    <td><input type="text" id="number" name="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="recur">Recurring?</label></td>
+                    <td><input type="checkbox" id="recur" name="recur"></td>
+                </tr>
+            </table>
+
+            <input type="submit" class="button">
+        </form>
+    </div>
 </div>
+
+
+
+
 </body>
 </html>
