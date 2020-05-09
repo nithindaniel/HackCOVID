@@ -37,11 +37,6 @@
     width: 30%;
 }
 
-.thumbnails .box_user {
-    margin: 0 1em 2em 1em;
-    width: 30%;
-}
-
 /* Box */
 
 .box {
@@ -64,8 +59,39 @@
     border-radius: 0;
     padding: 0;
 }
-
 /*End of Box Code*/
+
+/*Start of box_user code*/
+.thumbnails .box_user {
+    margin: 0 1em 2em 1em;
+    width: 90%;
+}
+
+/* Box */
+
+.box_user {
+    border-radius: 4px;
+    margin-bottom: 2em;
+    background: linear-gradient(to bottom, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+
+    .box_user .inner {
+        padding: 1em;
+    }
+
+}
+
+.box_user.alt {
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+/*End of box_user code */
+
+
 body {
     background-color: rgba(223, 132, 94, 0.22);
     font-family: "Open Sans", sans-serif;
