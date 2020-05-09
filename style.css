@@ -253,6 +253,10 @@ a {
 .home-section li {
     display: list-item;
 }
+
+#des {
+    height: 100px;
+}
 /*End Homepage edits*/
 
 /*Edits by Nidhi for Info Page*/
