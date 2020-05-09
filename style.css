@@ -291,6 +291,10 @@ a {
 #des {
     height: 100px;
 }
+
+.home-section .button{
+    border-radius: 5px;
+}
 /*End Homepage edits*/
 
 /*Edits by Nidhi for Info Page*/
@@ -328,7 +332,10 @@ input {
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
+}
 
+.addform .button{
+    border-radius: 5px;
 }
 
 .info-box{
@@ -340,6 +347,10 @@ input {
     overflow: hidden;
     border-radius: 5px;
     text-align: center;
+}
+
+.info-box .button{
+    border-radius: 5px;
 }
 
 /*End edits by Nidhi for Info Page*/
