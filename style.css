@@ -276,8 +276,6 @@ th {
     color: white;
 }
 
-.class-table tr:hover {background-color: #f2f2f2;}
-
 td, th {
     padding: 8px;
 }
