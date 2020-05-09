@@ -42,7 +42,7 @@
 .box {
     border-radius: 4px;
     margin-bottom: 2em;
-    background: #2c2c32;
+    background: linear-gradient(to bottom, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
     text-align: center;
 }
 
@@ -81,12 +81,12 @@
 
 /*End of Box Code*/
 body {
-    background-color: rgba(2, 2, 5, .78);
+    background-color: rgba(223, 132, 94, 0.22);
     font-family: "Open Sans", sans-serif;
     padding: 5px 25px;
     font-size: 18px;
     margin: 0;
-    color: #c8c384;
+    color: white;
 }
 
 h1 {
@@ -107,7 +107,7 @@ h1 {
     margin: 0 2em;
     display: inline-block;
     float: right;
-    border-bottom: solid #7f8c8d 2px;
+    border-bottom: solid white 2px;
     position: relative;
 }
 
@@ -119,7 +119,10 @@ h1 {
 }
 
 a {
-    color: #c8c384;
+    color: white;
+    background-color: rgba(255, 69, 0, 0.37);
+    padding: 5px 7px 5px 7px;
+    border-radius: 6px;
 }
 
 #Buzz{
@@ -138,7 +141,7 @@ a {
 }
 
 #fancy {
-    color: #c8c384;
+    color: rgba(255, 69, 0, 0.71);
     text-decoration: underline;
     font-size: 40px;
 }
@@ -152,7 +155,7 @@ a {
 }
 
 .button {
-    background-color: #c8c384; /*#c8c384*/
+    background: linear-gradient(to bottom, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15)); /*#c8c384*/
     border: none;
     position: center;
     color: white;
@@ -164,7 +167,7 @@ a {
 
 .button:hover {
     background-color: white;
-    color: #c8c384;
+    color: white;
 }
 
 
@@ -190,7 +193,7 @@ a {
     /*overflow: hidden;*/
     /*border-radius: 10px;*/
     /*margin: 1rem;*/
-    background: #7f8c8d;
+    background: rgba(239, 159, 43, 0.49);
     box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
     border-radius: 12px;
     overflow: hidden;
@@ -204,10 +207,10 @@ a {
 
 
 .button_dash {
-    background-color: #7f8c8d; /*#c8c384*/
+    background-color: rgba(239, 159, 43, 0.49); /*#c8c384*/
     border: none;
     position: center;
-    color: #c8c384;
+    color: white;
     padding: 100px 150px; /*15 25*/
     text-align: center;
     font-size: 16px;
@@ -216,8 +219,8 @@ a {
 }
 
 .button_dash:hover {
-    background-color: #7f8c8d;
-    color: #c8c390;
+    background-color: rgba(239, 159, 43, 0.49);
+    color: white;
     transform: translate3D(0, -10px, 0);
 }
 
@@ -258,13 +261,14 @@ input {
     margin-left: 30%;
     margin-right: 30%;
     text-align: center;
+
 }
 
 .info-box{
     width: 75%;
     position: relative;
     margin: 6% auto;
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 165, 0, 0.1);
     padding: 10px;
     overflow: hidden;
     border-radius: 5px;
@@ -297,7 +301,7 @@ input {
     width: 220px;
     margin: 35px auto;
     position: relative;
-    box-shadow: 0 0 20px 9px rgba(239, 233, 158, 0.45);
+    box-shadow: 0 0 20px 9px rgba(239, 159, 43, 0.49);
     border-radius: 30px;
 }
 
@@ -316,7 +320,7 @@ input {
     position: absolute;
     height: 100%;
     width: 110px;
-    background: linear-gradient(to right, rgb(128, 128, 128), rgba(88, 106, 139, 0.9));
+    background: linear-gradient(to right, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
     border-radius: 30px;
     transition: 0.5s;
 }
@@ -351,7 +355,7 @@ input {
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, rgb(128, 128, 128), rgba(88, 106, 139, 0.9));
+    background: linear-gradient(to right, rgba(239, 159, 43, 0.49), rgba(210, 16, 2, 0.15));
     border: 0;
     outline: none;
     border-radius: 30px;
@@ -375,7 +379,7 @@ span{
 }
 
 li{
-    color: #c8c384;
+    color: white;
     display: inline;
     padding-top: 15px;
     padding-left: 20px;
